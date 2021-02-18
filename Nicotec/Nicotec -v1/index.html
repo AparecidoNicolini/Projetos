@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br">
+  <head>
+    <title>Nicotec - Desenvolvimento e Soluções de Informatica</title>
+    
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/estilo.css">
+    <meta name="keywords" content="provedor, serviço, servico, hospedagem, site, sistema, analise, desenvolvimento, servidor, nicotec, nicotec.dev, html, css, php, javascript, navegador, internet, loja, virtual, ecommerce,">
+    <meta name="author" content="Nicotec">
+    <script type="text/javascript">
+            var texto = "Nicotec";
+        var result;
+
+        var count = 0;
+        function digitar() {
+        result = document.getElementById("logo");
+        window.setTimeout(function() { inserir(texto[count]) }, 200);
+        }
+
+        function inserir(letra) {
+        result.innerHTML += letra;
+        count++;
+        if(count < texto.length)
+            window.setTimeout(function() { inserir(texto[count]) }, 200);
+        }
+
+        window.onload = digitar;
+    </script>
+
+</head>
+
+<body>
+    <div class="body">
+        <div class="topo">
+            <a href="index.html"><div id="logo"></div></a>
+            <div class="menu">
+                <a href="index.html"><div class="menu1"><span>Inicio</span></div></a>
+                <a href="planos.html"><div class="menu1"><span>Serviços </span></div></a>
+                <a href="sobre.html"><div class="menu1"><span>Linguagens </span>  </div></a>
+                <a href="contato.html"><div class="menu1"><span>Contato </span>  </div></a>
+            </div>          
+        </div>   
+        <h1 class="desenv">Desenvolvimento e Soluções de Informatica</h1>
+
+        <div class="intro">
+            <div class="intro1">                 
+                <div><h1>Site</h1></div>
+                <div><img src="assets/image/site.png"></div>
+            </div>    
+
+                <p>Um site é essencial para que a empresa ganhe mais visibilidade, tudo o que é feito atualmente é preciso de um feedback dos internautas. </p>
+                <p>Afinal de contas, quem nunca pesquisou sobre determinada empresa para poder verificar sobre a qualidade dos serviços prestados? </p>
+                <p>Por isso mesmo, é preciso saber como e onde fazer as divulgações certas. </p>
+                <p>Pois dessa forma, transmitimos a seriedade correta ao nosso negocio. </p>
+            
+            <div class="intro1">
+                <div><h1>Hospedagem</h1></div>
+                <div><img src="assets/image/server.png"></div>
+            </div>
+                <p>Hospedagem de site é o local aonde o seu site fica armazenado.</p>
+                <p>É importante que seja um servidor de confiança, que tenha estabilidade para dessa forma garantir que tudo ocorra corretamente</p>
+                <p>Na Nicotec você terá todo o suporte para efetuar a migração do seu site, desta forma garantido que  tudo ocorra corretamente.</p>
+                <p>Garantimos 99,99% de estabilidade no seu site e caso não esteja conforme o contratado, terá 30 dias para efetuar o cancelamento da assinatura e receber o reenbolso de pagamento.</p>
+                <p>Simples, facil e sem burocracia.</p>
+        </div>
+        <footer class="footer">
+            <div class="footerleft"><h1>Redes sociais </h1>
+            <div class="facebook"><a href="https://www.facebook.com/aparecido.nicolini?ref=bookmarks" target=”_blank”><img src="assets/image/f.jpg"></a></div>
+            <div class="in"><a href="https://www.linkedin.com/in/aparecidonicolini/" target=”_blank”><img src="assets/image/in.png"></a></div> 
+            <div class="instagram"><a href="https://www.instagram.com/aparecidonicolini/" target=”_blank”><img src="assets/image/i.jpg"></a></div> 
+            <div class="whatsapp"> <a href="https://api.whatsapp.com/send?phone=5511961750177&text=Ola%2C%20seja%20bem%20vindo%20a%20Nicotec%2C%20deixe%20sua%20mensagem%20e%20em%20breve%20entrarei%20em%20contato...%20Obrigado!" target="_blank"><img src="assets/image/w.png"></a> </div>
+            
+        </div>
+            <div class="footeright">Todos os direitos reservados</div>
+        </footer>
+    </div>    
+</body>
+</html>   

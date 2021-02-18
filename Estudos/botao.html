@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="teste js/javascript.js"></script>
+	<script type="text/javascript" src="teste js/botao.js"></script>
+	
+</head>
+<body>
+<button onclick="window.location.href = 'https://www.google.com/';">Google</button>
+<button onclick="window.location.href= window.location.href;"> Atualizar	</button>
+
+<!-- abaixo botaão com alteração conforme entrada de informação -->
+
+<br><br><br>
+
+<div id="area"> Alguma Coisa Besta </div>
+<br><br>
+<button onclick="document.getElementById('area').innerHTML = prompt('Digite Algo');">Mudar Status</button>
+
+<!-- alteração no texto da tela acima, abaixo alteração no texto do botao. -->
+<br><br><br>
+
+<div id="area"> Alguma Coisa Besta </div>
+<br><br>
+<button onclick="this.innerHTML =  prompt('Digite algo para alterar o botao')">Mudar Status</button>
+
+<!-- abaixo campo igual no modo funcao -->
+<br><br><br>
+<div id="area1"> Alguma Coisa Besta </div>
+<br><br>
+<button onclick="trocarDiv('Dinho')">Mudar Status</button> <br><br><br>
+
+<!-- abaixo campo calculadora simples -->
+
+<input type="text" name="campo1" id="campo1">
+<input type="text" naame="campo2" id="campo2">
+<button onclick="soma()">Clique aqui para somar</button><br><br><br>
+
+
+<!-- abaixo campo botao de evento -->
+
+<button ondblclick="cliqueduplo()" oncontextmenu="return botaodireito()" onclick="clicou()" onmousedown="MouseClicado()"  onmouseup="mousesolto()" onmouseover="passarmouser()" onmouseout="mousesaiudaarea()" onmousemove="mexendomouse()">Botao de evento</button>
+
+</body>
+</html>

@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.marcas ul li {
+list-style: none;
+display:inline-block;
+
+}
+
+li#foto01 {
+	background:url(../slide/asfer.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;
+	margin-left: 24%;
+	margin-top: 3%;
+}
+
+
+li#foto02 {
+	background:url(../slide/bioservice.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;
+	
+}
+
+
+li#foto03 {
+	background:url(../slide/caitech.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;	
+}
+
+li#foto04 {
+	background:url(../slide/classico.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;	
+}
+
+li#foto05 {
+	background:url(../slide/coltene.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;	
+}
+
+li#foto06 {
+	background:url(../slide/dencril.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;
+	margin-left: 24%;
+	margin-top: 2%;
+}
+
+li#foto07 {	background:url(../slide/dx.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;
+}
+
+li#foto08 {	background:url(../slide/dentsply.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;
+}
+
+li#foto09 {	background:url(../slide/fava.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;
+}
+
+li#foto10 {	background:url(../slide/fgm.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;
+}
+
+li#foto11 {	background:url(../slide/gp.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;
+	margin-left: 24%;
+	margin-top: 2%;
+}
+
+li#foto12 {	background:url(../slide/kg.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;
+}
+
+li#foto13 {	background:url(../slide/maquira.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;
+}
+
+li#foto14 {	background:url(../slide/medsteril.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;
+}
+
+li#foto15 {	background:url(../slide/morelli.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;
+}
+
+li#foto16 {	background:url(../slide/novadfl.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;
+	margin-left: 24%;
+	margin-top: 2%;
+}
+
+li#foto17 {	background:url(../slide/sswhite.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;
+}
+
+li#foto18 {	background:url(../slide/supermax.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;
+}
+
+li#foto19 {	background:url(../slide/tecnident.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;
+}
+
+li#foto20 {	background:url(../slide/vipi.jpg) no-repeat;
+	width: 142px;
+	height: 62px;
+	position: relative;
+	background-color:#CCC;
+}

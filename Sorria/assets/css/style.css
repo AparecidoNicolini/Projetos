@@ -1,0 +1,183 @@
+body {
+	background-color:rgb(255,158,65);
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+
+.body {
+	background-color: white;
+	width: 1200px;
+	height: auto;
+	margin: auto;
+}
+
+.topo {
+	display: flex;
+	justify-content: space-between;
+	height: 130px;
+}
+
+.logo img{
+	height: 130px;
+}
+
+.menutopo {
+	display: flex;
+	justify-content: center;
+	margin-right: 20px;
+	margin-top: 70px;
+
+}
+
+.menutopo li {
+	color: white;
+	background-color: rgb(255,158,65);
+	padding: 10px;
+	list-style: none;
+	text-transform: uppercase;
+}
+
+.imgini {
+	display: flex;
+	justify-content: space-around;
+}
+
+.marcas {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 10px;
+	margin-bottom: 30px;
+	border-top: 1px solid rgb(255,158,65);
+
+}
+
+#contato {
+margin-left: 20px;
+margin-top: 60px;
+margin-bottom: 40px;
+}
+
+.marcas img {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.cont {
+	display: flex;
+}
+
+.cont2 {
+	margin-top: 60px;
+}
+
+.nome2 {
+	color:rgb(0,0,164);
+	margin-bottom: 30px;
+	font-size: 25px;
+}
+
+.telefone {
+	background-color:rgba(255,158,65,1.00);
+	padding:1%;
+	text-align: center;
+	box-shadow:0px 0px 1px #CCCCCC;
+	border-radius: 20px;
+	margin: 2%;
+	font-size: 160%;
+	color: white;
+}
+
+.site{
+	color: rgba(255,158,65,1.00);
+	font-size: 160%;
+	margin-top: 1%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.email{
+	color:darkblue;
+	font-size: 160%;
+	margin-bottom: 1.5%;
+	margin-top: 1%;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.nome3{
+	font-size: 130%;
+	color:darkblue;
+	text-indent: 1em;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.nome1{
+	font-size: 130%;
+	color:darkblue;
+	text-indent: 1em;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.confirmacao {
+	text-align: center;
+	margin-top: 50px;
+	color: darkblue;
+	margin-bottom: 480px;
+}
+
+.confirmacao h1{
+	margin-bottom: 30px;
+}
+
+.menutopo a li:hover {
+	background-color: white;
+	color:rgb(255,158,65);
+	transition-duration: 0.3s;
+}
+
+.quemsomos {
+	border-top: 1px solid rgb(255,158,65);
+	width: 90%;
+	height: auto;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+.quemsomos h1 {
+	text-align: center;
+	font-size: 25px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.quemsomos p {
+	line-height: 30px;
+	margin-top: 5px;
+	text-indent: 1.5em;
+}
+
+footer {
+	text-align: center;
+	border-top: 1px solid rgb(255,158,65);
+	border-bottom: 1px solid rgb(255,158,65);
+}
+
+footer p{
+	font-size: 18px;
+}
+
+.nicotec,
+.nicotec a {
+	color: grey;
+	text-decoration:none; 
+	font-size: 15px;
+}

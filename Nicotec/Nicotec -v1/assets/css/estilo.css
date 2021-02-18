@@ -1,0 +1,263 @@
+@font-face {
+    font-family: nixieone;
+    src: url('assets/font/nixieone.ttf');
+}
+body {
+    background-image: radial-gradient(circle, rgba(62,61,148,1) 0%, rgba(16,21,28,1) 100%);
+    background-image: url("../image/1.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    display: flex;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.body {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+#logo {
+    margin: 0;
+    padding: 0;
+    color: white;
+    line-height: 75px;
+    font-family: nixione;
+    font-size: 40px;
+}
+
+
+.topo {
+    display: flex;
+    justify-content: space-between;
+
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu1 {
+    line-height: 75px;
+    font-size:30px;
+}
+
+.menu1 span {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu1 span:hover {
+    color: grey;
+    padding: 10px;
+
+}
+
+
+.intro1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro1 img {
+    width: 100px;
+}
+
+.intro1 h1 {
+    text-align: center;
+}
+
+.titulocontato h1{
+    text-align: center;
+}
+
+#contato {
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 30px;
+	width: 50%;
+	height: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+input {
+	width: 50%;
+	height: 30px;
+	border-radius: 30px;
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	display: block;
+	text-align: center;
+	margin: auto;
+
+}
+
+
+.desenv {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: grey;
+    text-align: center;
+}
+
+.planos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.confirmacao {
+    height: 450px;
+    text-align: center;
+}
+
+.confirmacao h1 {
+    margin-top: 100px;
+}
+
+.planos1 {
+    width: 31%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+    -moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+    
+}
+
+.planos1:hover {
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px white;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    text-shadow: none;
+}
+.planos1 h1 {
+    text-align: center;
+    text-shadow: none;
+}
+
+.planos1 h2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+ul li {
+    list-style: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.pag {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pag h3 {
+    font-size: 25px;
+
+}
+
+.infopag {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.infopag img {
+    width: 130px;
+    border-radius: 20px;
+}
+
+.sobre {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content:space-between; 
+    flex-wrap: wrap;
+
+}
+
+
+ul li img {
+    width: 18px;
+
+}
+
+.ling {
+    width: 15%
+
+}
+
+.ling h1 {
+    color:white;
+    font-size: 120%;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+    text-align: center;
+}
+
+.ling img {
+    width: 100%;
+}
+
+.footerleft {
+    display: flex;
+}
+
+.facebook img{
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.instagram img{
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.in img{
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.whatsapp img {
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.footeright {
+    line-height: 80px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: grey;
+}
